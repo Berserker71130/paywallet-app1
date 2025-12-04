@@ -130,9 +130,12 @@ The Transaction page
 
 <img width="1366" height="768" alt="Account settings" src="https://github.com/user-attachments/assets/33c4416b-3962-43f6-b1de-ca47db5b3c0b" />
 This is the account settings page
-
-
-
-
-
 -----
+
+# To Login
+
+Enter default email and password
+
+# To make transactions in the homepage
+
+Use the Test Fund Transfer form below, enter the necessary details, select currencies and click on the execute transfer button, a record of the most recent transactions will be displayed in the homepage, and more details in the transaction page.
