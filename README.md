@@ -65,7 +65,8 @@ You also need to start the json server (MOCK API) using **npx json-server --watc
    
    npm start
     
-    
+You will be notified in the console that something is running on port 3000 will you want to use a differnt port? Press Y for Yes
+
     The application should automatically open in your browser at http://localhost:3001.
    
    The application will open at http://localhost:3001 because the db.json is opened at http://localhost: 3000.
