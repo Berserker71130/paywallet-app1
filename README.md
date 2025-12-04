@@ -1,129 +1,106 @@
-# 📄 Pay-wallet README**
-# 🚀 Overview
-PayWallet is a modern digital wallet application built with React (Create-React-App).
-It allows users to sign up, log in, manage multiple currency accounts, view real-time exchange rates, and interact with an easy, intuitive user interface.
 
-This README follows a clean industry-standard format suitable for public GitHub repositories.
+# 💳 Pay Wallet App
 
-✨ Features
+A modern, responsive financial dashboard application designed for managing multiple currency accounts (NGN, USD, EUR, GBP) and simulating real-time fund transfers. Built using *React* and styled efficiently with *Tailwind CSS*.
 
-🔐 Authentication (Login)
+-----
 
-👛 Manage Multiple Wallet Accounts
+## ✨ Features
 
-💱 Real-Time Exchange Rate Display
+This application provides a comprehensive interface for simulating personal finance management:
 
-🔄 Currency conversion UI
+  * *Multi-Currency Account Management:* Displays up-to-date balances for Naira (NGN), US Dollar (USD), Euro (EUR), and Great British Pound (GBP) accounts.
+  * *Balance Overview:* Features a prominent *Balance Section* to quickly view the total aggregated value of all accounts.
+  * *Fund Transfer Module:* Includes a fully functional *"Test Fund Transfer"* form integrated into the dashboard for simulating debits and credits between selected accounts.
+  * *Transaction History:* Displays a mock *Recent Transactions* table complete with dates, amounts, types, descriptions, and completion statuses.
+  * *Responsive Dashboard:* Uses the utility-first approach of Tailwind CSS to ensure the layout is clean, modern, and adapts well to different screen sizes.
+  * *Context API for State:* Utilizes React's Context API (AccountProvider) for global state management of accounts and transactions, ensuring data integrity across components.
 
-🎨 Clean modern UI with TailwindCSS
+-----
 
-⚡ API-powered account and rate data
+## 🛠️ Technologies Used
 
-# 🛠️ Tech Stack
-Frontend
+  * *Frontend Framework:* React (using Create React App)
+  * *Styling:* Tailwind CSS (for rapid, utility-first styling)
+  * *State Management:* React Context API & useState/useReducer hooks
+  * *Deployment:* Vercel
 
-React (Create-React-App)
+-----
 
-TailwindCSS
+## 🚀 Getting Started
 
-React Router
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-Standard Fetch
+### Prerequisites
 
-Context API (for global state)
+You need to have *Node.js* (version 14+) and *npm* (or yarn) installed on your machine.
 
-Mock API
+You also need to start the json server (MOCK API) using *npx json-server --watch db.json --port 3000* to be able to consume all endpoints from the mock API
 
-//REST API
+### Installation
 
-Authentication endpoints (Handled by the Mock API)
+1.  *Clone the Repository:*
 
-Account endpoints
+    bash
+    git clone [Your_GitHub_Repository_URL]
+    cd pay-wallet-app
+    
 
-Exchange-rate endpoint
+2.  *Install Dependencies:*
 
-📁 Project Structure (CRA)
-paywallet/
- ├── src/
- │   ├── components/
- │   ├── pages/
- │   ├── context/
- │   ├── hooks/
- │   ├── assets/
- │   ├── App.js
- │   └── index.js
- ├── public/
- ├── package.json
- └── README.md
+    bash
+    npm install
+    # or
+    yarn install
+    
 
-🔧 Installation & Setup
-1. Clone the repository
-git clone https://github.com/Berserker71130/paywallet.git
-cd paywallet
+### Running the Application
 
-2. Install dependencies
-npm install
+1.  *Start the Development Server:*
+    bash
+    npm start
+    # or
+    yarn start
+    
+    The application should automatically open in your browser at http://localhost:3000.
 
-3. Run the development server
-npm start
+-----
 
-4. Build for production
-npm run build
+## 📂 Project Structure
 
-🌐 Environment Variables
-
-Create a .env file at the project root:
-
-REACT_APP_API_BASE_URL=https://your-api-url.com
-REACT_APP_EXCHANGE_RATE_URL=https://your-api-url.com/exchange
+The key files and directories are organized as follows:
 
 
-⚠️ CRA requires all environment variables to start with REACT_APP_
+pay-wallet-app/
+├── public/
+├── src/
+│   ├── components/       # Reusable UI components (AccountList, BalanceSection, etc.)
+│   ├── context/          # Central state management (AccountProvider.js)
+│   ├── pages/            # Main routing components (DashboardPage.jsx, HomePage.jsx)
+│   ├── App.js            # Main application setup
+│   ├── index.js          # React DOM mounting
+├── package.json
+└── tailwind.config.js    # Tailwind configuration file
 
-🔗 API Endpoints Used
-Feature	Method	Endpoint
-Signup	POST	/api/auth/signup
-Login	POST	/api/auth/login
-Get Accounts	GET	/api/accounts
-Create Account	POST	/api/accounts/create
-Delete Account	DELETE	/api/accounts/:id
-Get Exchange Rates	GET	/api/exchange-rates
 
-(We can update these to match your actual server.)
+-----
 
-📸 Screenshots (Optional)
+## 🌐 Deployment
 
-Add screenshot images to a screenshots/ folder and reference like:
+This application is typically deployed using a hosting platform that supports Node.js environments, such as Vercel or Netlify.
 
-![Dashboard](./screenshots/dashboard.png)
+### Vercel Deployment
 
-🚀 Deployment (Vercel)
+1.  Ensure your project is pushed to a remote repository (GitHub).
+2.  Import the project into Vercel.
+3.  Vercel will automatically detect the React framework.
+      * *Build Command:* npm run build
+      * *Output Directory:* build
 
-Push project to GitHub
+-----
 
-Connect repo to Vercel
+## 🤝 Contributing
 
-Add environment variables in:
-Vercel → Project Settings → Environment Variables
+This project was developed primarily by a student team (You and I). If you find any issues or have suggestions, feel free to open a ticket or contact the repository owner.
 
-Deploy
-
-If Vercel gives you “Build failed” or “CORS error”, I can help fix that too.
-
-🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Submit a Pull Request
-
-📄 License
-
-MIT (or specify another license)
-
-👤 Author
-
-Manasseh
-GitHub: https://github.com/YOUR_USERNAME
+-----
