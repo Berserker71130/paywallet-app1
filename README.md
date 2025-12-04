@@ -110,11 +110,29 @@ This application is typically deployed using a hosting platform that supports No
       * *Build Command:* npm run build
       * *Output Directory:* build
 
+        ## Contributing
+        This project was developed primarily by a student team. If you find any issues or have suggestions, feel free to open a ticket or contact the repository owner
+
 -----
 
 ## Screenshots
-<img width="1366" height="768" alt="The Login Page" src="https://github.com/user-attachments/assets/14a52949-f3c1-4df3-8dd0-0a25bace0166" />
+<img width="1366" height="768" alt="Login Page" src="https://github.com/user-attachments/assets/14a52949-f3c1-4df3-8dd0-0a25bace0166" />
 This is the login page
+
+<img width="1366" height="768" alt="Homepage" src="https://github.com/user-attachments/assets/bca6a360-e30b-4f51-95e7-d9bcff3aebaf" />
+This is the Homepage
+
+<img width="1366" height="768" alt="Dashboard" src="https://github.com/user-attachments/assets/08fa67dc-7626-4377-b4ac-b32a1ad35368" />
+This is the Dashboard
+
+<img width="1366" height="768" alt="Transaction" src="https://github.com/user-attachments/assets/030db1d0-4579-4e13-bf84-60b4b1468198" />
+The Transaction page
+
+<img width="1366" height="768" alt="Account settings" src="https://github.com/user-attachments/assets/33c4416b-3962-43f6-b1de-ca47db5b3c0b" />
+This is the account settings page
+
+
+
 
 
 -----
