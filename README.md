@@ -7,7 +7,7 @@ This README follows a clean industry-standard format suitable for public GitHub 
 
 ✨ Features
 
-🔐 Authentication (Login & Signup)
+🔐 Authentication (Login)
 
 👛 Manage Multiple Wallet Accounts
 
@@ -15,13 +15,11 @@ This README follows a clean industry-standard format suitable for public GitHub 
 
 🔄 Currency conversion UI
 
-🧾 Transaction-style account listing
-
 🎨 Clean modern UI with TailwindCSS
 
 ⚡ API-powered account and rate data
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Frontend
 
 React (Create-React-App)
@@ -30,17 +28,15 @@ TailwindCSS
 
 React Router
 
-Axios
+Standard Fetch
 
 Context API (for global state)
 
-Backend / API
+Mock API
 
-(Replace with your real backend details)
+//REST API
 
-REST API
-
-Authentication endpoints
+Authentication endpoints (Handled by the Mock API)
 
 Account endpoints
 
@@ -62,7 +58,7 @@ paywallet/
 
 🔧 Installation & Setup
 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/paywallet.git
+git clone https://github.com/Berserker71130/paywallet.git
 cd paywallet
 
 2. Install dependencies
