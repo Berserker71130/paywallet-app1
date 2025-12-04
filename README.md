@@ -113,6 +113,8 @@ This application is typically deployed using a hosting platform that supports No
 -----
 
 ## Screenshots
+<img width="1366" height="768" alt="The Login Page" src="https://github.com/user-attachments/assets/14a52949-f3c1-4df3-8dd0-0a25bace0166" />
+This is the login page
 
 
 -----
