@@ -41,7 +41,7 @@ You also need to start the json server (MOCK API) using **npx json-server --watc
 
 1.  *Clone the Repository:*
 
-    bash
+    
     git clone https://github.com/Berserker71130/paywallet-app1.git
     
     cd paywallet
@@ -49,7 +49,7 @@ You also need to start the json server (MOCK API) using **npx json-server --watc
 
 3.  *Install Dependencies:*
 
-    bash
+    
     npm install
     # or
     yarn install
@@ -58,6 +58,7 @@ You also need to start the json server (MOCK API) using **npx json-server --watc
 ### Running the Application
 
 1.  *Start the JSON Server (MOCK API):*
+2.  
     npx json-server --watch db.json --port 3000
     
 3. *Start the Development Server:*
@@ -66,6 +67,7 @@ You also need to start the json server (MOCK API) using **npx json-server --watc
     
     
     The application should automatically open in your browser at http://localhost:3001.
+   
    The application will open at http://localhost:3001 because the db.json is opened at http://localhost: 3000.
 
 -----
