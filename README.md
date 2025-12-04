@@ -1,4 +1,4 @@
-**📄 Pay-wallet README**
+# 📄 Pay-wallet README**
 # 🚀 Overview
 PayWallet is a modern digital wallet application built with React (Create-React-App).
 It allows users to sign up, log in, manage multiple currency accounts, view real-time exchange rates, and interact with an easy, intuitive user interface.
