@@ -35,15 +35,15 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 You need to have *Node.js* (version 14+) and *npm* (or yarn) installed on your machine.
 
-You also need to start the json server (MOCK API) using *npx json-server --watch db.json --port 3000* to be able to consume all endpoints from the mock API
+You also need to start the json server (MOCK API) using **npx json-server --watch db.json --port 3000** to be able to consume all endpoints from the mock API
 
 ### Installation
 
 1.  *Clone the Repository:*
 
     bash
-    git clone [Your_GitHub_Repository_URL]
-    cd pay-wallet-app
+    git clone https://github.com/Berserker71130/paywallet-app1.git
+    cd paywallet
     
 
 2.  *Install Dependencies:*
@@ -56,11 +56,12 @@ You also need to start the json server (MOCK API) using *npx json-server --watch
 
 ### Running the Application
 
-1.  *Start the Development Server:*
-    bash
-    npm start
-    # or
-    yarn start
+1.  *Start the JSON Server (MOCK API):*
+    npx json-server --watch db.json --port 3000
+    
+3. *Start the Development Server:*
+   npm start
+    
     
     The application should automatically open in your browser at http://localhost:3000.
 
@@ -99,8 +100,7 @@ This application is typically deployed using a hosting platform that supports No
 
 -----
 
-## 🤝 Contributing
+## Screenshots
 
-This project was developed primarily by a student team (You and I). If you find any issues or have suggestions, feel free to open a ticket or contact the repository owner.
 
 -----
