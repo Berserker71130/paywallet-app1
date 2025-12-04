@@ -125,8 +125,12 @@ This is the Homepage
 <img width="1366" height="768" alt="Dashboard" src="https://github.com/user-attachments/assets/08fa67dc-7626-4377-b4ac-b32a1ad35368" />
 This is the Dashboard
 
-<img width="1366" height="768" alt="Transaction" src="https://github.com/user-attachments/assets/030db1d0-4579-4e13-bf84-60b4b1468198" />
-The Transaction page
+<img width="1366" height="768" alt="Home" src="https://github.com/user-attachments/assets/030db1d0-4579-4e13-bf84-60b4b1468198" />
+The Home page
+
+<img width="1366" height="768" alt="Transaction" src="https://github.com/user-attachments/assets/1c09a477-8bbc-46dc-8496-30876532f013" />
+This is the transaction page
+
 
 <img width="1366" height="768" alt="Account settings" src="https://github.com/user-attachments/assets/33c4416b-3962-43f6-b1de-ca47db5b3c0b" />
 This is the account settings page
