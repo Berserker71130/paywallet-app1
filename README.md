@@ -70,6 +70,12 @@ You also need to start the json server (MOCK API) using **npx json-server --watc
    
    The application will open at http://localhost:3001 because the db.json is opened at http://localhost: 3000.
 
+   You will need an email and password to be able to gain access into the app
+
+   The default email is *user@paywallet.com*
+
+   The default password is *SecurePassword123*
+
 -----
 
 ## 📂 Project Structure
