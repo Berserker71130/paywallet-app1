@@ -58,7 +58,7 @@ You also need to start the json server (MOCK API) using **npx json-server --watc
 ### Running the Application
 
 1.  *Start the JSON Server (MOCK API):*
-2.  
+
     npx json-server --watch db.json --port 3000
     
 3. *Start the Development Server:*
