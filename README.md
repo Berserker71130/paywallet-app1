@@ -143,3 +143,9 @@ Enter default email and password
 # To make transactions in the homepage
 
 Use the Test Fund Transfer form below, enter the necessary details, select currencies and click on the execute transfer button, a record of the most recent transactions will be displayed in the homepage, and more details in the transaction page.
+
+In the Dashboard page there is a dropdown for all available currencies which shows the live exchange rates for each currency, you can choose any to check.
+
+# To Logout
+
+Click on the Logout icon at the bottom part of the settings page, you will be logged out and redirected to the login page
