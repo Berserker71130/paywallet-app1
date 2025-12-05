@@ -140,7 +140,7 @@ This is the account settings page
 
 Enter default email and password
 
-# To make transactions in the homepage
+# To make transactions in the Dashboard Page
 
 Use the Test Fund Transfer form below, enter the necessary details, select currencies and click on the execute transfer button, a record of the most recent transactions will be displayed in the homepage, and more details in the transaction page.
 
