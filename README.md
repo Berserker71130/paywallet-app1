@@ -84,7 +84,7 @@ You will be notified in the console that something is running on port 3000 will 
 The key files and directories are organized as follows:
 
 paywallet -> public -> src ->
-Components/#AccountCards.js, AccountList.js, AccountSelector.js, ActionButton.js, BalanceSection.js, MockLogin.js, PromoBanner.js, QuickActionCards.js, Sidebar.js, Topbar.js, TransactionItem.js, TransactionRow.js#/ -> Context/#AccountProvider.js, ExchangeRateProvider.js#/ -> Pages/#DashboardPage.js, HomePage.js, PaymentsPage.js, SettingsPage.js, TransactionPage.js#/ -> app.css -> app.js -> app.test.js -> index.css -> index.js -> reportWebVitals.js -> setUpTest.js -> gitignore -> package-lock.json -> package.json -> postcss.config.js -> README.md -> tailwind.config.js -> db.json
+**Components**/#AccountCards.js, AccountList.js, AccountSelector.js, ActionButton.js, BalanceSection.js, MockLogin.js, PromoBanner.js, QuickActionCards.js, Sidebar.js, Topbar.js, TransactionItem.js, TransactionRow.js#/ -> **Context**/#AccountProvider.js, ExchangeRateProvider.js#/ -> **Pages**/#DashboardPage.js, HomePage.js, PaymentsPage.js, SettingsPage.js, TransactionPage.js#/ ->**app.css** -> **app.js** -> **app.test.js** -> **index.css** -> **index.js** -> **reportWebVitals.js** -> **setUpTest.js** -> **gitignore** -> **package-lock.json** -> **package.json** -> **postcss.config.js** -> **README.md** -> **tailwind.config.js** -> **db.json**
 
 
 -----
